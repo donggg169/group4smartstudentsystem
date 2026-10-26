@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Student Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="layout">
+
+  <aside class="sidebar">
+    <div class="brand-row">
+      <div class="logo">SS</div>
+      <div>
+        <strong>Smart Student</strong>
+        <small>Academic Monitoring</small>
+      </div>
+    </div>
+
+    <p class="nav-label">MAIN MENU</p>
+    <nav id="navigation"></nav>
+    <button id="logoutButton" class="nav-button logout">
+      ↪ Log Out
+    </button>
+  </aside>
+
+  <main class="main">
+    <header class="topbar">
+      <div>
+        <small>SMART STUDENT SYSTEM</small>
+        <h2>Academic Dashboard</h2>
+      </div>
+      <div class="user-pill">
+        <div class="avatar" id="userAvatar">SS</div>
+        <div>
+          <strong id="userName">User</strong>
+          <small id="userRole">ROLE</small>
+        </div>
+      </div>
+    </header>
+
+    <section id="dashboardContent" class="content">
+      Loading dashboard...
+    </section>
+
+    <footer>
+      Smart Student Information and Academic Monitoring System
+    </footer>
+  </main>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
